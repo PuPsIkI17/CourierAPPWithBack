@@ -1,0 +1,31 @@
+{   
+    "configuration": {
+        "maxDeliveryTimeMinutes": 40.0,
+        "courierSpeedKmH": 20.0
+    },
+    "couriers": [
+        {
+            "id" : 1,
+            "name": "Andrei",
+            "lat" : 45,
+            "lon" : 20
+        }
+    ],
+    "orders": [
+        {
+            "id": 2,
+            "actions": [
+                {
+                    "type": "PICKUP",
+                    "lat": 45.002,
+                    "lon": 20.002
+                },
+                {
+                    "type": "DELIVERY",
+                    "lat": 45.004,
+                    "lon": 20.004
+                    }
+            ]
+        }
+    ]
+}

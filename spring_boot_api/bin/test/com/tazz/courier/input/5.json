@@ -1,0 +1,107 @@
+{   
+    "configuration": {
+        "maxDeliveryTimeMinutes": 20.0,
+        "courierSpeedKmH": 30.0
+    },
+    "couriers": [
+        {
+            "id" : 1,
+            "name": "Andrei",
+            "lat" : 35,
+            "lon" : 31
+        },
+        {
+            "id" : 2,
+            "name": "Vasile",
+            "lat" : 35,
+            "lon" : 30
+        },
+        {
+            "id" : 3,
+            "name": "Ion",
+            "lat" : 33,
+            "lon" : 32
+        },
+        {
+            "id" : 4,
+            "name": "Mihai",
+            "lat" : 38,
+            "lon" : 32
+        },
+        {
+            "id" : 5,
+            "name": "Ana",
+            "lat" : 35,
+            "lon" : 33
+        },
+        {
+            "id" : 6,
+            "name": "Icar",
+            "lat" : 34,
+            "lon" : 31
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "actions": [
+                {
+                    "type": "PICKUP",
+                    "lat": 35.002,
+                    "lon": 30.002
+                },
+                {
+                    "type": "DELIVERY",
+                    "lat": 35.004,
+                    "lon": 30.004
+                    }
+            ]
+        },
+        {
+            "id": 2,
+            "actions": [
+                {
+                    "type": "PICKUP",
+                    "lat": 37,
+                    "lon": 40
+                },
+                {
+                    "type": "DELIVERY",
+                    "lat": 35.004,
+                    "lon": 30.004
+                    }
+            ]
+        },
+        {
+            "id": 3,
+            "actions": [
+                {
+                    "type": "PICKUP",
+                    "lat": 31,
+                    "lon": 34
+                },
+                {
+                    "type": "DELIVERY",
+                    "lat": 32,
+                    "lon": 33
+                    }
+            ]
+        },
+        {
+            "id": 4,
+            "actions": [
+                {
+                    "type": "PICKUP",
+                    "lat": 37,
+                    "lon": 31
+                },
+                {
+                    "type": "DELIVERY",
+                    "lat": 36,
+                    "lon": 31.5
+                    }
+            ]
+        }
+       
+    ]
+}
